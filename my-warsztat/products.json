@@ -1,0 +1,214 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Laptop Dell XPS 13",
+      "description": "Laptop 13,3\" z procesorem Intel i5, 8 GB RAM, 256 GB SSD",
+      "price": 3499,
+      "image": "https://via.placeholder.com/150?text=Laptop+Dell+XPS+13"
+    },
+    {
+      "id": 2,
+      "name": "Mysz Logitech G Pro",
+      "description": "Mysz gamingowa z czujnikiem HERO, 16000 DPI",
+      "price": 249,
+      "image": "https://via.placeholder.com/150?text=Mysz+Logitech+G+Pro"
+    },
+    {
+      "id": 3,
+      "name": "Klawiatura mechaniczna Corsair K95",
+      "description": "Klawiatura RGB z przełącznikami Cherry MX, 6 makro-klawiszy",
+      "price": 799,
+      "image": "https://via.placeholder.com/150?text=Klawiatura+Corsair+K95"
+    },
+    {
+      "id": 4,
+      "name": "Monitor LG 27GN950-B",
+      "description": "27\" monitor 4K UHD, 144Hz, IPS, G-SYNC",
+      "price": 2999,
+      "image": "https://via.placeholder.com/150?text=Monitor+LG+27GN950-B"
+    },
+    {
+      "id": 5,
+      "name": "Słuchawki SteelSeries Arctis 7",
+      "description": "Bezprzewodowe słuchawki gamingowe, dźwięk 7.1",
+      "price": 699,
+      "image": "https://via.placeholder.com/150?text=Słuchawki+SteelSeries+Arctis+7"
+    },
+    {
+      "id": 6,
+      "name": "Stacja dokująca do laptopa USB-C",
+      "description": "Stacja dokująca z 3 portami USB 3.0, HDMI, Ethernet, USB-C",
+      "price": 299,
+      "image": "https://via.placeholder.com/150?text=Stacja+dokująca+USB-C"
+    },
+    {
+      "id": 7,
+      "name": "Głośniki Creative Pebble 2.0",
+      "description": "Głośniki 2.0 o mocy 8W, kompaktowy design",
+      "price": 149,
+      "image": "https://via.placeholder.com/150?text=Głośniki+Creative+Pebble"
+    },
+    {
+      "id": 8,
+      "name": "Laptop ASUS ROG Zephyrus G14",
+      "description": "Laptop gamingowy z procesorem AMD Ryzen 9, 16 GB RAM, 1 TB SSD",
+      "price": 7499,
+      "image": "https://via.placeholder.com/150?text=Laptop+ASUS+ROG+Zephyrus+G14"
+    },
+    {
+      "id": 9,
+      "name": "Karta graficzna NVIDIA GeForce RTX 3080",
+      "description": "Karta graficzna z 10 GB pamięci GDDR6X, 4K, Ray Tracing",
+      "price": 5999,
+      "image": "https://via.placeholder.com/150?text=Karta+graficzna+RTX+3080"
+    },
+    {
+      "id": 10,
+      "name": "Myszka Razer DeathAdder V2",
+      "description": "Mysz gamingowa z optycznym czujnikiem 20,000 DPI",
+      "price": 349,
+      "image": "https://via.placeholder.com/150?text=Myszka+Razer+DeathAdder+V2"
+    },
+    {
+      "id": 11,
+      "name": "Laptop Apple MacBook Pro 16",
+      "description": "Laptop 16\" z procesorem Apple M1 Pro, 32 GB RAM, 512 GB SSD",
+      "price": 11999,
+      "image": "https://via.placeholder.com/150?text=Laptop+Apple+MacBook+Pro+16"
+    },
+    {
+      "id": 12,
+      "name": "Konsola Sony PlayStation 5",
+      "description": "Konsola do gier z napędem Ultra HD Blu-ray, 825 GB SSD",
+      "price": 2499,
+      "image": "https://via.placeholder.com/150?text=PlayStation+5"
+    },
+    {
+      "id": 13,
+      "name": "SSD Samsung 970 EVO Plus 1TB",
+      "description": "Dysk SSD M.2 NVMe o pojemności 1TB",
+      "price": 599,
+      "image": "https://via.placeholder.com/150?text=SSD+Samsung+970+EVO+Plus"
+    },
+    {
+      "id": 14,
+      "name": "Zasilacz Corsair RM750x",
+      "description": "Modularny zasilacz 750W, certyfikat 80+ Gold",
+      "price": 399,
+      "image": "https://via.placeholder.com/150?text=Zasilacz+Corsair+RM750x"
+    },
+    {
+      "id": 15,
+      "name": "Karta dźwiękowa Creative Sound BlasterX AE-5",
+      "description": "Zewnętrzna karta dźwiękowa z dźwiękiem 32-bit 384 kHz",
+      "price": 599,
+      "image": "https://via.placeholder.com/150?text=Karta+dźwiękowa+Creative+AE-5"
+    },
+    {
+      "id": 16,
+      "name": "Mysz Logitech MX Master 3",
+      "description": "Mysz bezprzewodowa z 4000 DPI, 7 przycisków",
+      "price": 399,
+      "image": "https://via.placeholder.com/150?text=Mysz+Logitech+MX+Master+3"
+    },
+    {
+      "id": 17,
+      "name": "Podstawka chłodząca Cooler Master Notepal X3",
+      "description": "Podstawka chłodząca z wentylatorem 200mm do laptopów 15-17\"",
+      "price": 199,
+      "image": "https://via.placeholder.com/150?text=Podstawka+chłodząca+Cooler+Master"
+    },
+    {
+      "id": 18,
+      "name": "Słuchawki Razer Kraken X",
+      "description": "Słuchawki gamingowe z dźwiękiem przestrzennym 7.1, mikrofonem",
+      "price": 229,
+      "image": "https://via.placeholder.com/150?text=Słuchawki+Razer+Kraken+X"
+    },
+    {
+      "id": 19,
+      "name": "Router TP-Link Archer AX6000",
+      "description": "Router WiFi 6 z prędkością do 6000 Mbps",
+      "price": 999,
+      "image": "https://via.placeholder.com/150?text=Router+TP-Link+Archer+AX6000"
+    },
+    {
+      "id": 20,
+      "name": "Płyta główna ASUS ROG Strix Z590-E",
+      "description": "Płyta główna ATX z chipsetem Z590, dla procesorów Intel 10. generacji",
+      "price": 999,
+      "image": "https://via.placeholder.com/150?text=Płyta+główna+ASUS+ROG+Strix+Z590-E"
+    },
+    {
+      "id": 21,
+      "name": "Chłodzenie CPU Noctua NH-D15",
+      "description": "Wydajne chłodzenie powietrzne dla procesorów Intel/AMD",
+      "price": 749,
+      "image": "https://via.placeholder.com/150?text=Chłodzenie+Noctua+NH-D15"
+    },
+    {
+      "id": 22,
+      "name": "Obudowa Fractal Design Meshify C",
+      "description": "Obudowa ATX z pełnym dostępem do chłodzenia, panel mesh",
+      "price": 399,
+      "image": "https://via.placeholder.com/150?text=Obudowa+Fractal+Design+Meshify+C"
+    },
+    {
+      "id": 23,
+      "name": "Powerbank Anker PowerCore 20000",
+      "description": "Powerbank 20000mAh, ładowanie 2 urządzeń jednocześnie",
+      "price": 249,
+      "image": "https://via.placeholder.com/150?text=Powerbank+Anker+PowerCore"
+    },
+    {
+      "id": 24,
+      "name": "Podkładka pod mysz Corsair MM300",
+      "description": "Podkładka pod mysz, materiał tekstylny, duża powierzchnia",
+      "price": 99,
+      "image": "https://via.placeholder.com/150?text=Podkładka+Corsair+MM300"
+    },
+    {
+      "id": 25,
+      "name": "Kamera internetowa Logitech C920",
+      "description": "Kamera Full HD 1080p z mikrofonem, idealna do streamingu",
+      "price": 329,
+      "image": "https://via.placeholder.com/150?text=Kamera+Logitech+C920"
+    },
+    {
+      "id": 26,
+      "name": "Myszki gamingowa HyperX Pulsefire FPS Pro",
+      "description": "Mysz z 16000 DPI i oświetleniem RGB, dedykowana dla graczy",
+      "price": 249,
+      "image": "https://via.placeholder.com/150?text=Myszka+HyperX+Pulsefire+FPS+Pro"
+    },
+    {
+      "id": 27,
+      "name": "Monitor BenQ ZOWIE XL2411K",
+      "description": "Monitor 24\" Full HD 144Hz, przeznaczony dla graczy",
+      "price": 899,
+      "image": "https://via.placeholder.com/150?text=Monitor+BenQ+ZOWIE+XL2411K"
+    },
+    {
+      "id": 28,
+      "name": "Zewnętrzny dysk twardy Seagate 2TB",
+      "description": "Zewnętrzny dysk 2TB USB 3.0, szybkie transfery",
+      "price": 399,
+      "image": "https://via.placeholder.com/150?text=Zewnętrzny+dysk+Seagate+2TB"
+    },
+    {
+      "id": 29,
+      "name": "Karta sieciowa TP-Link Archer T3U",
+      "description": "Karta sieciowa WiFi USB 3.0, AC1300 Mbps",
+      "price": 129,
+      "image": "https://via.placeholder.com/150?text=Karta+sieciowa+TP-Link+Archer+T3U"
+    },
+    {
+      "id": 30,
+      "name": "Słuchawki Bluetooth JBL Tune 500BT",
+      "description": "Słuchawki Bluetooth z dźwiękiem JBL Pure Bass",
+      "price": 249,
+      "image": "https://via.placeholder.com/150?text=Słuchawki+Bluetooth+JBL+Tune+500BT"
+    }
+  ]
+}
