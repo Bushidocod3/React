@@ -1,17 +1,14 @@
 import React, { useState } from 'react';
-import Hello from "./components/Chapter_11/Hello.jsx";
-import CarList from "./components/Chapter_11/CarList.jsx";
-import AddTwoNumbers from "./components/Chapter_11/AddTwoNumbers.jsx";
-import SelectOrType from "./components/Chapter_11/SelectOrType.jsx";
-import BookInfo from "./components/Chapter_12/BookInfo.jsx";
-import PokemonList from "./components/Chapter_12/PokemonList.jsx";
-import IPDetails from "./components/Chapter_12/IPDetails.jsx";
+import ToDoApp from "./components/Chapter_09/ToDoApp.jsx";
+import Numbers from "./components/Chapter_08/Numbers.jsx";
+import CustomTitle from "./components/Chapter_08/CustomTitle.jsx";
+import UpperLower from "./components/Chapter_08/UpperLower.jsx";
 
 function App() {
 
     return (
         <>
-            <IPDetails />
+            <UpperLower />
         </>
     );
 }

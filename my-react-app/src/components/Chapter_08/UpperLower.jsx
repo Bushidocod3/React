@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 
 const UpperLower = () => {
-    const [text, setText] = useState("Ala ma kota");
+    const [text, setText] = useState("Hello World!");
 
     const handleUppercase = () => {
         setText(text.toUpperCase());

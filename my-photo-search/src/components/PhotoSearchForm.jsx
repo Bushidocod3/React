@@ -12,7 +12,7 @@ const PhotoSearchForm = ({ onSearch }) => {
     return (
         <form onSubmit={handleSubmit}>
             <label>
-                Choose photo database:
+                Wybierz bazę zdjęć:
                 <select value={base} onChange={(e) => setBase(e.target.value)}>
                     <option value="pixabay">Pixabay</option>
                     <option value="pexels">Pexels</option>
@@ -20,7 +20,7 @@ const PhotoSearchForm = ({ onSearch }) => {
             </label>
 
             <label>
-                Enter category:
+                Wpisz kategorię:
                 <input
                     type="text"
                     value={category}
@@ -29,7 +29,7 @@ const PhotoSearchForm = ({ onSearch }) => {
                 />
             </label>
 
-            <button type="submit">Search</button>
+            <button type="submit">Wyszukaj</button>
         </form>
     );
 };

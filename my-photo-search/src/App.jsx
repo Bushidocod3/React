@@ -1,27 +1,30 @@
 import React, { useState } from "react";
 import PhotoSearchForm from "./components/PhotoSearchForm";
 import ImageGallery from "./components/ImageGallery";
-import './App.css';
+import "./App.css";
 
 const App = () => {
     const [images, setImages] = useState([]);
     const [loading, setLoading] = useState(false);
     const [error, setError] = useState("");
 
-    const PIXABAY_API_KEY = '47540179-ba76cedd6a917e74ba1f6e094';
+    const PIXABAY_API_KEY = "47540179-ba76cedd6a917e74ba1f6e094";
     const PEXELS_API_KEY = "Dn7MTFQjcmskYNPUebabFk1agdfpYsrc7DwvCVGlxsAgk9P4dCB7tdzN";
 
     const fetchImages = async (category, base) => {
         setLoading(true);
         setError("");
+
         try {
             let response;
 
             if (base === "pixabay") {
+                // Fetch from Pixabay API
                 response = await fetch(
                     `https://pixabay.com/api/?key=${PIXABAY_API_KEY}&q=${category}&image_type=photo`
                 );
             } else {
+                // Fetch from Pexels API
                 response = await fetch(
                     `https://api.pexels.com/v1/search?query=${category}&per_page=10`,
                     {
@@ -33,13 +36,13 @@ const App = () => {
             }
 
             if (!response.ok) {
-                throw new Error("Błąd podczas pobierania danych");
+                throw new Error("Bład znalezienia danych ");
             }
 
             const data = await response.json();
             setImages(base === "pixabay" ? data.hits : data.photos);
         } catch (error) {
-            setError("Błąd podczas ładowania zdjęć");
+            setError("Błąd ładowania zdjęć");
         } finally {
             setLoading(false);
         }
