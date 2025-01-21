@@ -1,4 +1,4 @@
-# Młodzieżowa Akademia IT
+# Młodzieżowa Akademia IT - WWSI 
 
 ## Bootcamp programistyczny JavaScript i JavaScript Zaawansowany (React)
 
